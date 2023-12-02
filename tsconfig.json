@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Specify ECMAScript target version
+    "module": "ES6", // Specify module code generation
+    "lib": ["ES2019", "DOM"],
+    "declaration": true, // Generates corresponding '.d.ts' file
+    "outDir": "./dist", // Redirect output structure to the directory
+    "strict": false, // Enable all strict type-checking options
+    "esModuleInterop": true, // Enables compatibility with Babel module imports
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true // Disallow inconsistently-cased references to the same file
+  },
+  "include": ["src"], // Specify files to be included in compilation
+  "exclude": ["node_modules", "dist"] // Exclude directories from compilation
+}
